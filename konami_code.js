@@ -3,7 +3,7 @@
 let index = 0;
  
 // This is the function that would be invoked by the event listener.
-function init(e) {
+function init() {
   document.body.addEventListener('keydown', keypress);
 }
 function keyPress(e) {
