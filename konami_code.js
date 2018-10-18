@@ -4,6 +4,9 @@ let index = 0;
  
 // This is the function that would be invoked by the event listener.
 function init(e) {
+  document.body.addEventListener('keydown', keypress);
+}
+function keyPress(e) {
   const key = parseInt(e.detail || e.which);
  
   if (key === code[index]) {
@@ -18,4 +21,4 @@ function init(e) {
     index = 0;
   }
 }
-document.body.addEventListener('keydo')
+document.body.addEventListener('keydown', init);
