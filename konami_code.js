@@ -21,4 +21,3 @@ function keyPress(e) {
     index = 0;
   }
 }
-document.body.addEventListener('keydown', init);
