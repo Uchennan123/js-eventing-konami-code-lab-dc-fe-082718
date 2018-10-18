@@ -4,7 +4,7 @@ let index = 0;
  
 // This is the function that would be invoked by the event listener.
 function init() {
-  document.body.addEventListener('keydown', keypress);
+  document.body.addEventListener('keydown', keyPress);
 }
 function keyPress(e) {
   const key = parseInt(e.detail || e.which);
